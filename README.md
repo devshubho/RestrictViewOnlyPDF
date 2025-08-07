@@ -1,10 +1,10 @@
-# 🔒 RestrictViewOnlyPDF
+# RestrictViewOnlyPDF
 
 A simple WordPress plugin that restricts access to specific pages unless the user has purchased corresponding WooCommerce products. Great for delivering **PDFs or private content** only to paying customers.
 
 ---
 
-## 📦 Features
+## Features
 
 - Restrict any page based on WooCommerce product purchase
 - Custom redirect URL if user is not authorized
@@ -14,7 +14,7 @@ A simple WordPress plugin that restricts access to specific pages unless the use
 
 ---
 
-## 🧠 Use Case
+## Use Case
 
 Perfect for:
 
@@ -25,7 +25,7 @@ Perfect for:
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 1. Download or clone this repository
 2. Upload the folder to your WordPress site under `/wp-content/plugins/`
@@ -38,7 +38,7 @@ Perfect for:
 
 ---
 
-## 🔐 How It Works
+## How It Works
 
 - If a user tries to visit a restricted page:
   - Not logged in? ➜ Redirects to `/my-account/`
@@ -46,13 +46,7 @@ Perfect for:
 
 ---
 
-## 🛠️ Admin Panel Preview
-
-![Admin Settings Screenshot](https://via.placeholder.com/800x400?text=Admin+Settings+Screenshot)
-
----
-
-## 🧑‍💻 Developer Notes
+## Developer Notes
 
 ### Filter Hook for Custom Logic (Optional)
 You can hook into this plugin to extend its behavior if needed.
