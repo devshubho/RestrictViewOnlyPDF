@@ -45,6 +45,16 @@ Perfect for:
   - Logged in but hasn't purchased? ➜ Redirects to the page you set (or `/shop` by default)
 
 ---
+## Dependencies
+WordPress 5.0+
+
+WooCommerce 4.0+
+
+PHP 7.0+
+
+## 👤 Author
+Dev.shubho
+Crafted with ❤️ for content protection.
 
 ## Developer Notes
 
@@ -57,14 +67,4 @@ add_filter('restrict_pdf_access_check', function($allowed, $user_id, $product_id
     return $allowed;
 }, 10, 3);
 
-## Dependencies
-WordPress 5.0+
-
-WooCommerce 4.0+
-
-PHP 7.0+
-
-## 👤 Author
-Dev.shubho
-Crafted with ❤️ for content protection.
 
